@@ -1,5 +1,4 @@
-Richard — I’ve got you.  
-You want one unified, all‑in‑one package that combines:
+
 
 - your ownership declaration  
 - your military‑grade IP rights  
