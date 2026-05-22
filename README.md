@@ -90,8 +90,7 @@ No implied license or transfer of ownership exists.
 
 For licensing inquiries:
 
-📧 business@dwvscpsenergy.com  
-(Replace with official contact email)
+protected email 
 
 ---
 
