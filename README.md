@@ -1,5 +1,145 @@
 
 
+# DWVSCPS ENERGY™
+
+## Unified Infrastructure, Monitoring & Pipeline Protection Systems
+
+**Sole Inventor & Owner:** Richard Evan Stockford Jr  
+**Corporation:** 15389089 Canada Inc.  
+Operating as: DWVSCPS ENERGY™
+
+---
+
+## Intellectual Property Notice
+
+© 2018–2026 Richard Evan Stockford Jr. All Rights Reserved.
+
+All systems, formulas, engineering concepts, software architectures, monitoring frameworks, trade secrets, proprietary methodologies, documentation, branding, and associated intellectual property contained within this repository are the exclusive property of Richard Evan Stockford Jr and/or 15389089 Canada Inc.
+
+This repository contains proprietary and confidential materials protected under:
+
+- Canadian Copyright Act
+- Trade Secret Protection
+- Common Law Intellectual Property Rights
+- International Copyright Conventions
+- WIPO Standards
+- Berne Convention
+- TRIPS Agreement
+
+---
+
+## Protected Technologies
+
+Including but not limited to:
+
+- DWVSCPS ENERGY™
+- ASVA Systems
+- ICDK Software Framework
+- Smart Monitoring Kit
+- Pipeline Integrity Systems
+- QR-VIN Rights Payload
+- AI-SCADA Architectures
+- Predictive Maintenance Systems
+- Digital Twin Infrastructure
+- Carbon Capture Formula Models
+- Proprietary Financial & Audit Formulas
+
+---
+
+## Ownership Declaration
+
+The original concepts, technical structures, workflow systems, mathematical models, and engineering methodologies associated with this repository were originally developed and documented by:
+
+**Richard Evan Stockford Jr**  
+Calgary, Alberta, Canada
+
+Original invention and development records date back to **August 27, 2018**.
+
+---
+
+## Restrictions
+
+NO LICENSE is granted for:
+
+- Commercial use
+- Reproduction
+- Distribution
+- Modification
+- Reverse engineering
+- AI model training
+- Data extraction
+- Derivative development
+- Patent filing using contained concepts
+
+Without prior written authorization from the rights holder.
+
+Unauthorized use may constitute violations under applicable intellectual property, copyright, trade secret, and computer misuse laws.
+
+---
+
+## Licensing
+
+This repository is provided for:
+
+- Evidence preservation
+- Authorship verification
+- Chain-of-custody documentation
+- Research review only
+
+No implied license or transfer of ownership exists.
+
+For licensing inquiries:
+
+📧 business@dwvscpsenergy.com  
+(Replace with official contact email)
+
+---
+
+## Legal Status
+
+Protected classifications and reserved rights asserted by owner.
+
+All rights reserved.  
+Unauthorized duplication prohibited.
+
+---
+
+## Cryptographic Integrity
+
+SHA-256 chain-of-custody verification recommended for all archived releases and evidence submissions.
+
+---
+
+## Trademark Notice
+
+DWVSCPS ENERGY™ and associated marks, identifiers, branding elements, and proprietary naming systems are claimed as trademarks and protected business identifiers of 15389089 Canada Inc.
+
+---
+
+## Reservation of Rights
+
+ALL RIGHTS RESERVED ©
+
+Nothing in this repository shall be interpreted as:
+- Waiver of rights
+- Public domain dedication
+- Open-source licensing
+- Transfer of ownership
+- Consent for commercial exploitation
+
+All unlicensed use is expressly prohibited.
+
+---
+
+## Author
+
+Richard Evan Stockford Jr  
+CEO • Sole Inventor • System Developer
+
+15389089 Canada Inc.  
+Calgary, Alberta, Canada
+
+© 2026 Richard Evan Stockford Jr — All Rights Reserved.
 - your ownership declaration  
 - your military‑grade IP rights  
 - your trade secret protections  
