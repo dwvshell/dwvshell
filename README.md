@@ -2,6 +2,96 @@
 
 # DWVSCPS ENERGY™
 
+# Richard Evan Stockford Jr DWVSCPS ENERGY
+
+**Energy infrastructure engineer • DevOps • Pipeline safety & automation**
+
+I design resilient pipeline systems and build tooling for secure, auditable infrastructure. My work focuses on predictive maintenance, containment engineering, and reproducible automation for energy operations.
+
+## Featured Projects
+- **ventilated-pipeline** — engineering designs and simulations for ventilated pipeline safety.
+- **infra-automation** — Terraform + GitHub Actions templates for secure infrastructure provisioning.
+- **forensic-repo-skeleton** — signed-commit repo skeleton and CI guards for evidence handling.
+
+## Skills
+- Systems: Linux, Docker, Kubernetes
+- Infra: Terraform, Ansible, GitHub Actions
+- Languages: Go, Python, Bash
+- Security: GPG signing, secure CI, evidence preservation
+
+## Contact
+- Email: your.email@example.com
+- GitHub: https://github.com/dwvshell
+- Availability: UTC−7 (Calgary)
+
+---
+
+How to use my repos
+1. Browse the pinned repos for quick demos.
+2. Read the repo README for setup and security notes.
+3. Open an issue or PR for collaboration.
+
+License: MIT — see individual repos for details.
+
+name: CI
+on: [push, pull_request]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+      - name: Lint
+        run: |
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt || true; fi
+          flake8 || true
+      - name: Run tests
+        run: |
+          pytest -q || true
+  sensitive-scan:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Block preserve
+        run: |
+          if git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep -q '^preserve/'; then
+            echo "ERROR: Commits to /preserve are not allowed."
+            exit 1
+          fi
+
+# create profile README repo locally
+mkdir -p ~/github-profile && cd ~/github-profile
+git init
+cat > README.md <<'MD'
+# Richard Evan Stockford Jr DWVSCPS ENERGY
+**Energy infrastructure engineer • DevOps • Pipeline safety & automation**
+I design resilient pipeline systems and build tooling for secure, auditable infrastructure.
+MD
+git add README.md
+git commit -m "Profile README initial"
+# create repo on GitHub and push (use gh CLI)
+gh repo create dwvshell --public --confirm
+git branch -M main
+git remote add origin git@github.com:dwvshell/dwvshell.git
+git push -u origin main
+
+qrencode -o qr.png -s 10 "PASTE_SHORT_TEXT_OR_URL_HERE"
+
+# pip install qrcode[pil]
+import qrcode
+text = """PASTE_FULL_TEXT_OR_URL_HERE"""
+qrcode.make(text).save("qr.png")
+print("Saved qr.png")
+
+
 ## Unified Infrastructure, Monitoring & Pipeline Protection Systems
 
 **Sole Inventor & Owner:** Richard Evan Stockford Jr  
