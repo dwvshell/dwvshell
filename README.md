@@ -19,9 +19,6 @@ I design resilient pipeline systems and build tooling for secure, auditable infr
 - Languages: Go, Python, Bash
 - Security: GPG signing, secure CI, evidence preservation
 
-## Contact
-- Email: your.email@example.com
-- GitHub: https://github.com/dwvshell
 - Availability: UTC−7 (Calgary)
 
 ---
