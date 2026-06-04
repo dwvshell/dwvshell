@@ -1,4 +1,123 @@
+LICENSE‑level Confidentiality 
 
+- LICENSE  
+- LICENSE-SEALED  
+- NOTICE  
+- CONFIDENTIALITY.md  
+- Any sealed evidence binder or protocol archive  
+
+ALL GITHUB ACCOUNTS HEREIN CONFIDENTIAL / RESTRICTED classification.
+
+---
+
+DWVSCPS ENERGY — LICENSE‑LEVEL CONFIDENTIALITY NOTICE
+© RICHARD EVAN STOCKFORD JR — DWVSCPS ENERGY / 15389089 CANADA INC.  
+CONFIDENTIAL — RESTRICTED — SEALED MATERIALS
+
+---
+
+I. CONFIDENTIALITY STATUS
+All materials contained within this repository — including but not limited to source code, comments, commit messages, documentation, notes, drafts, diagrams, models, specifications, and all derivative works — are classified as:
+
+CONFIDENTIAL — RESTRICTED — SEALED MATERIALS
+
+No portion of this repository may be disclosed, reproduced, transmitted, distributed, or referenced without explicit written authorization from:
+
+RICHARD EVAN STOCKFORD JR  
+Inventor, Technical Founder, CEO  
+DWVSCPS ENERGY / 15389089 Canada Inc.
+
+---
+
+II. OWNERSHIP & INTELLECTUAL PROPERTY RIGHTS
+All intellectual property contained herein is the exclusive property of DWVSCPS ENERGY / 15389089 Canada Inc.  
+This includes:
+
+- Proprietary formulas  
+- Engineering methods  
+- Technical frameworks  
+- Protocols  
+- Comments and commit histories  
+- Analytical notes  
+- System designs  
+- Trade secrets  
+- Confidential operational data  
+
+All rights are reserved globally.
+
+---
+
+III. PROHIBITED ACTIONS
+Without explicit written authorization, the following actions are strictly prohibited:
+
+- Copying or reproducing any portion of the materials  
+- Public disclosure or publication  
+- Training or fine‑tuning AI systems on this content  
+- Reverse engineering, decompiling, or extracting proprietary logic  
+- Creating derivative works  
+- Sharing, distributing, or transmitting any content  
+- Referencing or quoting internal comments or commit histories  
+
+Any unauthorized use constitutes a breach of confidentiality and may result in civil and criminal liability.
+
+---
+
+IV. ACCESS RESTRICTIONS
+Access to this repository is granted solely for the purpose of internal review, regulatory compliance, or authorized technical evaluation.
+
+Access does not grant:
+
+- License  
+- Transfer of rights  
+- Permission to reuse  
+- Permission to disclose  
+- Permission to store or archive externally  
+
+All access is revocable at any time.
+
+---
+
+V. TRADE SECRET DESIGNATION
+All materials herein are designated as Trade Secrets under applicable Canadian and international law.
+
+This includes:
+
+- TS‑001 through TS‑005  
+- All unpublished technical methods  
+- All proprietary system architectures  
+- All confidential engineering notes  
+- All protocol‑level operational logic  
+
+Unauthorized disclosure of trade secrets is strictly prohibited.
+
+---
+
+VI. NON‑WAIVER
+Failure to enforce any provision of this notice does not constitute a waiver of rights.  
+All rights remain fully reserved.
+
+---
+
+VII. GOVERNING LAW
+This confidentiality notice is governed by:
+
+- Canadian Federal Law  
+- Alberta Provincial Law  
+- International IP and Trade Secret Conventions  
+
+---
+
+VIII. STATUS
+ACTIVE — IN FORCE — UNTIL FORMALLY REVOKED
+
+This notice applies to all historical, current, and future materials authored by RICHARD EVAN STOCKFORD JR within this repository.
+
+---
+generate:
+
+- A matching SECURITY.md for enforcement  
+- A sealed LICENSE‑SEALED version with stricter language  
+- A full protocol binder cover page  
 
 # DWVSCPS ENERGY™
 
