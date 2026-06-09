@@ -1,3 +1,53 @@
+[DWVSCPS-ENERGY-FAP-01]
+
+ENTITY:
+DWVSCPS ENERGY / 15389089 CANADA INC.
+CALGARY, ALBERTA, CANADA
+
+CONTROLLER:
+RICHARD EVAN STOCKFORD JR
+
+STATUS:
+ACTIVE — INTELLECTUAL PROPERTY OWNER
+ACTIVE — SYSTEMS ARCHITECT
+ACTIVE — FEDERAL FILINGS ON RECORD
+
+DECLARATION:
+This package asserts the existence, authorship, and operational readiness
+of DWVSCPS ENERGY systems, including identity frameworks, QR payload
+architecture, provenance chains, and regulatory documentation.
+
+PRIMARY SIGNAL:
+"THIS IS A FORMAL NOTICE OF PRESENCE, OWNERSHIP, AND CAPABILITY."
+
+QR-PAYLOAD (TEXT FORM):
+DWVSCPS ENERGY — EXECUTIVE IDENTITY LAYER
+AUTHORITY: R.E. STOCKFORD JR
+INTERNAL TAG: 51-PCT-DESIGNATION
+CONTACT TRIGGER: "ACKNOWLEDGE RECEIPT"
+
+CHAIN-OF-CUSTODY:
+Origin: Calgary, Alberta
+Custodian: R.E. STOCKFORD JR
+Integrity: SHA-256 recommended before QR encoding
+
+OPTIONAL HASH FIELD:
+HASH256: <<INSERT HASH BEFORE QR ENCODE>>
+
+INTENT:
+This package is issued to prompt recognition, response, and engagement
+from any reviewing party, including but not limited to:
+- Corporate stakeholders
+- Regulatory bodies
+- Procurement networks
+- Technical reviewers
+- Legal observers
+
+ACTION REQUESTED:
+"Acknowledge receipt and confirm next steps."
+
+VERSION:
+DWVSCPS-FAP-01 / 2026
 LICENSE‑level Confidentiality 
 
 - LICENSE  
