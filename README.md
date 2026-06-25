@@ -3,7 +3,238 @@ R. E. STOCKFORD JR / 15389089 CANADA INC.
 Trademark: DWV STOCKFORD CONTAMINATE PIPELINE SHELL INC™
 Patent-Pending (Government of Canada)
 TRUST VAULT: DWVSCPS_TRUST_VAULT_2026
+{
+  "vault_name": "DWVSCPS_TRUST_VAULT_2026",
+  "owner": {
+    "name": "Richard Evan Stockford Jr",
+    "entity": "15389089 Canada Inc.",
+    "brand": "DWVSCPS ENERGY FAMILY TRUST™",
+    "trademark": "DWV STOCKFORD CONTAMINATE PIPELINE SHELL INC™",
+    "jurisdiction": "Calgary, Alberta, Canada"
+  },
+  "ip_core": {
+    "patent_status": "Patent-Pending (Government of Canada)",
+    "master_hash_anchor": "ff2e04fb710e5014fab79357a867dddf5fea1bc8720270a9e2ce7df76c553f77",
+    "systems": [
+      "DWVSCPS Contaminate Pipeline Shell",
+      "Stockford Capture Efficiency (η_capture)",
+      "7-Variable Formula System",
+      "Smart Monitoring Kit (SCADA/AIS)",
+      "Master Compliance Engine (Python)"
+    ]
+  },
+  "licensing": {
+    "policy": "All use of DWVSCPS designs, formulas, and monitoring systems requires a signed license or trust authorization.",
+    "enforcement_mode": "Unlicensed use on Azure pipelines or other infrastructure is recorded as a payable liability to DWVSCPS ENERGY FAMILY TRUST™.",
+    "license_states": [
+      "LICENSED",
+      "UNLICENSED",
+      "DISPUTED"
+    ]
+  },
+  "chain_of_custody": {
+    "manifest_file": "EVIDENCE_INDEX_MASTER999.json",
+    "hash_algorithm": "SHA-256",
+    "sealed_media": [
+      "USB_A_COURT",
+      "USB_B_MASTER_ARCHIVE"
+    ]
+  },
+  "integration_targets": [
+    "GitHub (public timestamped record)",
+    "Courthouse (King’s Bench filings)",
+    "Banks (RBC, TD, BMO, CIBC, National, etc.)",
+    "Regulators (CRA, RCMP FSOC, CER)",
+    "Azure Pipelines / DevOps tenants using DWVSCPS logic"
+  ]
+}
 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import json
+import hashlib
+from dataclasses import dataclass, asdict, field
+from datetime import datetime
+from typing import List, Dict, Any, Optional
+
+BASE_DIR = "/sdcard/STOCKFORD_INFRASTRUCTURE_MASTER_FILING_PACKAGE_MASTER999"
+VAULT_JSON = os.path.join(BASE_DIR, "DWVSCPS_TRUST_VAULT_2026_MASTER.json")
+INDEX_JSON = os.path.join(BASE_DIR, "EVIDENCE_INDEX_MASTER999.json")
+REPORT_CRA = os.path.join(BASE_DIR, "REPORT_CRA_MASTER999.json")
+REPORT_RCMP = os.path.join(BASE_DIR, "REPORT_RCMP_FSOC_MASTER999.json")
+REPORT_CER = os.path.join(BASE_DIR, "REPORT_CER_MASTER999.json")
+REPORT_COURT = os.path.join(BASE_DIR, "REPORT_COURT_MASTER999.json")
+
+SECTION_MAP = {
+    "Section_A": "A – Core Statements",
+    "Section_B": "B – Evidence & Chronology",
+    "Section_C": "C – Technical Annex",
+    "Section_D": "D – Regulatory & Legal",
+    "Section_E": "E – Digital Custody & Metadata"
+}
+
+@dataclass
+class EvidenceItem:
+    ref_id: str
+    section: str
+    title: str
+    file_name: str
+    path: str
+    date_indexed_utc: str
+    hash_sha256: Optional[str]
+    relevance: List[str] = field(default_factory=list)
+    notes: str = ""
+
+@dataclass
+class MasterRegistry:
+    vault: Dict[str, Any]
+    evidence_items: Dict[str, EvidenceItem] = field(default_factory=dict)
+
+    def register_item(self, item: EvidenceItem) -> None:
+        self.evidence_items[item.ref_id] = item
+
+    def to_index_dict(self) -> Dict[str, Any]:
+        return {
+            "index_name": "EVIDENCE_INDEX_MASTER999",
+            "vault": self.vault,
+            "generated_utc": now_utc(),
+            "items": {k: asdict(v) for k, v in self.evidence_items.items()}
+        }
+
+def now_utc() -> str:
+    return datetime.utcnow().isoformat() + "Z"
+
+def sha256_file(path: str) -> Optional[str]:
+    if not os.path.isfile(path):
+        return None
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(8192), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+def classify_relevance(filename: str) -> List[str]:
+    name = filename.lower()
+    tags = set()
+    if "cra" in name or "tax" in name or "clean_economy" in name:
+        tags.add("CRA")
+    if "rcmp" in name or "fsoc" in name or "police" in name:
+        tags.add("RCMP_FSOC")
+    if "cer" in name or "tolling" in name or "pipeline" in name:
+        tags.add("CER")
+    if "court" in name or "statement_of_claim" in name or "kings_bench" in name:
+        tags.add("COURT")
+    if not tags:
+        tags.add("GENERAL")
+    return sorted(tags)
+
+def new_ref_id(section_code: str, counter: int) -> str:
+    return f"{section_code}-{counter:03d}"
+
+def load_vault() -> Dict[str, Any]:
+    with open(VAULT_JSON, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def build_registry() -> MasterRegistry:
+    vault = load_vault()
+    registry = MasterRegistry(vault=vault)
+    ref_counter = {code: 1 for code in SECTION_MAP.keys()}
+
+    for section_code, section_label in SECTION_MAP.items():
+        section_path = os.path.join(BASE_DIR, section_code)
+        if not os.path.isdir(section_path):
+            continue
+        for root, _, files in os.walk(section_path):
+            for fname in files:
+                fpath = os.path.join(root, fname)
+                hash_val = sha256_file(fpath)
+                ref_id = new_ref_id(section_code.replace("Section_", ""), ref_counter[section_code])
+                ref_counter[section_code] += 1
+                relevance = classify_relevance(fname)
+                item = EvidenceItem(
+                    ref_id=ref_id,
+                    section=section_label,
+                    title=fname,
+                    file_name=fname,
+                    path=fpath,
+                    date_indexed_utc=now_utc(),
+                    hash_sha256=hash_val,
+                    relevance=relevance,
+                    notes="Indexed by MASTER999 with vault ownership metadata."
+                )
+                registry.register_item(item)
+    return registry
+
+def write_json(path: str, payload: Dict[str, Any]) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+def build_authority_report(registry: MasterRegistry, authority: str) -> Dict[str, Any]:
+    filtered = {
+        ref_id: asdict(item)
+        for ref_id, item in registry.evidence_items.items()
+        if authority in item.relevance or authority == "COURT"
+    }
+    summary = ""
+    actions = []
+    if authority == "CRA":
+        summary = "Evidence relevant to Clean Economy credits and unlicensed use of DWVSCPS formulas on Azure pipelines."
+        actions = [
+            "Acknowledge receipt of DWVSCPS ENERGY FAMILY TRUST™ ownership registry.",
+            "Review overlap between DWVSCPS formulas and Azure-based optimization tools.",
+            "Assess tax-credit claims relying on unlicensed IP."
+        ]
+    elif authority == "RCMP_FSOC":
+        summary = "Evidence of potential misappropriation and de-banking impacting enforcement of trade secrets."
+        actions = [
+            "Record registry as IP misappropriation dossier.",
+            "Preserve digital evidence and chain-of-custody logs.",
+            "Assess whether further investigation is warranted."
+        ]
+    elif authority == "CER":
+        summary = "Evidence linking DWVSCPS pipeline shell designs to tolling and integrity systems."
+        actions = [
+            "Review technical overlap with CER-regulated infrastructure.",
+            "Assess implications for safety and tolling agreements."
+        ]
+    elif authority == "COURT":
+        summary = "Court-grade registry aligned with Master Statement of Claim, Judicial Seal, and Requirement to Pay."
+        actions = [
+            "Place vault and registry under Judicial Seal.",
+            "Use master hash anchor to verify all exhibits.",
+            "Treat registry as backbone of DWVSCPS ENERGY FAMILY TRUST™ claims."
+        ]
+    return {
+        "authority": authority,
+        "generated_utc": now_utc(),
+        "vault": registry.vault,
+        "summary": summary,
+        "recommended_actions": actions,
+        "evidence_items": filtered
+    }
+
+def main() -> None:
+    if not os.path.isdir(BASE_DIR):
+        raise SystemExit(f"BASE_DIR does not exist: {BASE_DIR}")
+    registry = build_registry()
+    index_payload = registry.to_index_dict()
+    write_json(INDEX_JSON, index_payload)
+
+    write_json(REPORT_CRA, build_authority_report(registry, "CRA"))
+    write_json(REPORT_RCMP, build_authority_report(registry, "RCMP_FSOC"))
+    write_json(REPORT_CER, build_authority_report(registry, "CER"))
+    write_json(REPORT_COURT, build_authority_report(registry, "COURT"))
+
+    print("[MASTER999] Vault linked, evidence indexed, reports generated.")
+    print("[MASTER999] Master Hash Anchor:", registry.vault["ip_core"]["master_hash_anchor"])
+    print("[MASTER999] Owner:", registry.vault["owner"]["name"])
+    print("[MASTER999] Trust:", registry.vault["owner"]["brand"])
+
+if __name__ == "__main__":
+    main()
 [DWVSCPS-ENERGY-FAP-01]
 
 ENTITY:
