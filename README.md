@@ -1274,3 +1274,72 @@ By:Richard Evan Stockford
 
 https://youtu.be/GhwKtVnbYbw
 
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/0797e893-751e-4695-8229-a5066e4fe43c.atom</id>
+  <title>Open Government Portal - Dataset: "Completed Access to Information Request Summaries dataset"</title>
+  <updated>2026-06-26T18:32:54.862357+00:00</updated>
+  <author>
+    <name>https://open.canada.ca</name>
+  </author>
+  <link href="https://open.canada.ca/data/en/feeds/dataset/0797e893-751e-4695-8229-a5066e4fe43c.atom" rel="self"/>
+  <link href="https://open.canada.ca/data/en/api/3/action/package_show?id=0797e893-751e-4695-8229-a5066e4fe43c" rel="enclosure"/>
+  <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Recently created or updated resources on Open Government Portal for dataset: Completed Access to Information Request Summaries dataset</subtitle>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/5515c59c-130a-4979-81fd-acbb94020a8a</id>
+    <title>Data Schema</title>
+    <updated>2026-02-10T14:06:49.109882+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/5515c59c-130a-4979-81fd-acbb94020a8a" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=5515c59c-130a-4979-81fd-acbb94020a8a" rel="enclosure"/>
+    <published>2026-02-10T14:06:49.142111+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/9803cf94-f080-46af-8a74-a1fab0c93cb9</id>
+    <title>Data Dictionary</title>
+    <updated>2026-02-10T14:18:11.851038+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/9803cf94-f080-46af-8a74-a1fab0c93cb9" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=9803cf94-f080-46af-8a74-a1fab0c93cb9" rel="enclosure"/>
+    <published>2026-02-10T14:06:49.142115+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/d338974f-b307-4737-88ae-c28af9178f2a</id>
+    <title>Search Completed Access to Information Requests (French)</title>
+    <updated>2026-02-10T14:57:07.190125+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/d338974f-b307-4737-88ae-c28af9178f2a" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=d338974f-b307-4737-88ae-c28af9178f2a" rel="enclosure"/>
+    <published>2017-03-20T10:20:15.304503+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/c8745108-5138-45f1-b7aa-cb16cef414c1</id>
+    <title>Search Completed Access to Information Requests (English)</title>
+    <updated>2026-02-10T14:57:07.190073+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/c8745108-5138-45f1-b7aa-cb16cef414c1" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=c8745108-5138-45f1-b7aa-cb16cef414c1" rel="enclosure"/>
+    <published>2017-03-20T10:20:15.304473+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/5a1386a5-ba69-4725-8338-2f26004d7382</id>
+    <title>Completed Access to Information Request Summaries dataset (Nothing to report)</title>
+    <updated>2026-06-26T06:51:35.643770+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/5a1386a5-ba69-4725-8338-2f26004d7382" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=5a1386a5-ba69-4725-8338-2f26004d7382" rel="enclosure"/>
+    <published>2016-11-24T13:30:18.115272+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2</id>
+    <title>Completed Access to Information Request Summaries dataset</title>
+    <updated>2026-06-26T06:51:35.643695+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/0797e893-751e-4695-8229-a5066e4fe43c/resource/19383ca2-b01a-487d-88f7-e1ffbc7d39c2" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=19383ca2-b01a-487d-88f7-e1ffbc7d39c2" rel="enclosure"/>
+    <published>2016-11-24T13:30:18.115239+00:00</published>
+  </entry>
+</feed>
+
