@@ -1,3 +1,203 @@
+
+# Comprehensive Techno-Legal and Forensic Audit of DWVSCPS Energy and 15389089 Canada Inc.
+## Executive Corporate Profile and Strategic Administrative Framework
+The complex administrative, technical, and judicial history of Richard Evan Stockford Jr. and the associated corporate structures of 15389089 Canada Inc. and DWVSCPS ENERGY represents a distinct convergence of conceptual industrial design, federal clean energy incentives, and sovereign legal theories. Based on corporate registry filings and federal records, 15389089 Canada Inc. was federally incorporated under the Canada Business Corporations Act on August 27, 2018, with Richard Evan Stockford Jr. registered as its sole director, holding registered addresses in Calgary, Alberta, and Waterville, New Brunswick. The corporation operated under the brand identity DWVSCPS ENERGY, positioning itself to commercialize pipeline safety and carbon capture technologies.
+On April 26, 2026, Corporations Canada officially dissolved 15389089 Canada Inc. under Section 212 of the Canada Business Corporations Act due to administrative non-compliance, notably failing to maintain required corporate filings. In response to this corporate dissolution and ongoing legal challenges, the organizational model shifted from a standard federal corporation to a self-declared trust structure known as the DWVSCPS ENERGY FAMILY TRUST™. Under this framework, the claimant asserts absolute, sovereign authority as the sole inventor, trustee, and key holder of the associated intellectual property and financial assets.
+The transition from a registered private corporation to a sovereign trust model is a key inflection point in the administrative and legal history of this entity. This shift was characterized by a move away from traditional commercial channels toward a highly structured matrix of unilateral legal demands and private cryptographic verifications. The administrative tracking of this entity's lifecycle, from federal incorporation to dissolution and transition into a sovereign trust, is systematically documented across several international and domestic registries.
+| Entity / Asset Component | Administrative & Registry Status | Jurisdictional and Operational Scope | Registry Identifiers |
+|---|---|---|---|
+| **15389089 Canada Inc.** | Dissolved (April 26, 2026, under CBCA s. 212) | Federal (Canada), registered in Calgary and New Brunswick | CRA BN: 77915 6538 |
+| **DWVSCPS ENERGY™** | Active Trademark (Unregistered / CIPO Pending) | Energy Classifications 57 and 58 | CIPO Ref: 15389089 |
+| **DWVSCPS ENERGY FAMILY TRUST™** | Private / Unilateral Declaration | Domiciled in Calgary, AB, and Waterville, NB | Case Ref: GDOC24S499E |
+| **SAP Business Network** | Registered Supplier Profile | Enterprise Network Access | BNO ID: BNO-100000092509891 
+ ANID: AN11187321046 
+ DUNS: 243293901 |
+## Technical Engineering Evaluation of the DWVSCPS Technology Stack
+### Mechanical Design of the Secondary Containment Sleeve
+The physical cornerstone of the DWVSCPS platform is the "Drain, Waste, Ventilation, Secure/solid foundation, Containing contaminant Pipeline Shell" (DWVSCPS). Structurally, the system is designed as an unpressurized, modular secondary containment sleeve engineered to encase primary high-pressure hydrocarbon or supercritical carbon dioxide (sCO_2) transport pipelines. The primary technical features, originating from a conceptual design sketch produced by Davison Design & Development in April 2018, include :
+ * **Primary Casing Shell:** A continuous cylindrical jacket designed to capture fluid and gas escaping from a primary wall rupture or joint separation.
+ * **Vents and Pressure-Relief Valves (V-Ventilation):** Positioned along the upper axis of the containment sleeve to release and control escaping gases, preventing catastrophic over-pressurization.
+ * **Drainage and Containment Chambers (D-Drain & W-Waste):** Integrated gravity-fed collection channels in the bottom section of the sleeve designed to funnel liquid discharges into closed-loop recovery reservoirs.
+ * **Monolithic Internal Lining:** A bottom-side lining made of soft rubber compounds or urethane-modified-epoxy (UME) to provide structural shock absorption, eliminate electrostatic ignition risks, and lower the friction coefficient of escaping fluids.
+ * **Animal/Traffic By-Pass:** An elevated physical corridor built over the shell to facilitate wildlife migration and localized vehicle crossings over the pipeline right-of-way.
+The original design documentation includes a critical disclaimer noting that the initial drawings were "conceptual only" and lacked active metallurgical, thermodynamic, or site-specific engineering validation.
+### Theoretical Fluid Dynamics and the Autonomous Safety Valve Actuator (ASVA)
+The theoretical performance of the DWVSCPS secondary containment system under rupture conditions is modeled using classical fluid dynamics. The fluid velocity (V) within the ventilated containment orifices is programmatically calculated as:
+where C_d represents the empirical discharge coefficient of the ventilated containment orifices, \Delta P is the pressure differential across the primary-secondary boundary, and \rho is the density of the escaping fluid.
+The transient pressure-decay rate within the ventilation and vacuum channels over time (t) is modeled to determine system integrity:
+where P_0 represents the initial pressure spike and k is the geometric decay constant governed by the ventilation channel's layout.
+When the system detects a safety breach where \Delta P(t) violates pre-established threshold parameters, the Autonomous Safety Valve Actuator (ASVA) is triggered. Operating as a localized "pipeline braking system," the ASVA de-energizes critical infrastructure segments through automated, hardwired interlocks within milliseconds, operating independently of centralized SCADA systems to eliminate delays from human intervention.
+### SMT3, PIID, and the Biometric Fornix Paradigm
+The digital oversight layer of the infrastructure is governed by Smart Monitoring Tech (SMT3). SMT3 utilizes sensor fusion to synthesize real-time data streams from Global Positioning Systems (GPS), Inertial Measurement Units (IMUs), thermal arrays, and Light Detection and Ranging (LiDAR). In GPS-denied environments, such as river crossings, the system defaults to "Dead Reckoning" mode using three-axis gyroscopes. To prevent spoofing of physical infrastructure assets, the Persistent Infrastructure Identity (PIID) program applies a unique, 17-character vehicle-style identification number (VIN) to each component embedded within dynamic ISO/IEC 18004:2024 QR codes.
+| Character Positions | Data Field | Functional Purpose under ISO/IEC 18004:2024 |
+|---|---|---|
+| **Positions 1–3** | World Manufacturer Identifier | Ensures global traceability of the component origin. |
+| **Position 9** | Check Digit | Executes algorithmic verification to prevent string tampering. |
+| **Position 10** | Model / Installation Year | Establishes chronological priority and physical aging metrics. |
+| **Positions 12–17** | Sequential Serial Number | Identifies the specific hardware asset at the network edge. |
+The most highly integrated component of this monitoring system is the "Biometric Fornix Paradigm". This framework attempts to synthesize physical engineering security with medical biological authentication :
+ * **Ocular Fornix Integration:** Utilizing the superior and inferior conjunctival fornices of the human eye as reference sites, the system incorporates specialized "eye sensors" and "faceguards". These biometric sensors track ocular muscle movement, saccades, and vestibulo-ocular reflexes through smart contact lenses (SmCLs).
+ * **Brain Fornix and Neuro-Infrastructure:** The system incorporates the biological function of the brain's fornix—the primary projection bundle from the hippocampus. By deploying head impact measurement sensors to monitor neural and cognitive impairment indicators among field personnel, the framework attempts to verify the physiological safety and cognitive liveness of operators before granting access to critical containment infrastructure.
+This biometric data is processed under the Personal Health Information Protection Act (PHIPA) guidelines, seeking to establish a sovereign communication network that protects both human biometric identity and corporate infrastructure data.
+### German Contract Manufacturing (Lohnfertiger) Evaluation
+To assess the feasibility of physical component manufacturing, the claimant evaluated a select group of German contract manufacturers (Lohnfertiger) representing the *Mittelstand* engineering sector. This evaluation assessed technical capability for DWVSCPS assembly fabrication and eligibility under the German R&D Tax Allowance Act (*Forschungszulagengesetz* - FZuIG) :
+| Manufacturer & Location | Core Technical Specialty | DWVSCPS Subsystem Alignment | FZuIG R&D Tax Allowance Eligibility |
+|---|---|---|---|
+| **Müller Präzision GmbH** 
+ (Cham, BY) | CNC turning, milling, and fine precision mechanics | SMT3 Sensor and IMU housing protection | **High** (Experimental protective enclosures development) |
+| **Apparatebau Kirchheim GmbH** 
+ (Kirchheim, BW) | Industrial large-scale vessel and tank fabrication | Modular secondary containment casing | **High** (Process development for double-wall pressure shells) |
+| **Behälterbau Dresden GmbH** 
+ (Dresden, SN) | Pressure vessel manufacturing | Liquid discharge recovery chambers (D-Drain) | **Medium** (Standard fabrication with custom optimization) |
+| **Rohrleitungsbau Münster GmbH** 
+ (Münster, NW) | High-pressure pipeline systems | Primary pipeline transport core | **High** (Weld-seam stress testing for CO2 transport) |
+| **Neumann & Sohn GmbH** 
+ (Hamburg, HH) | Maritime apparatus and marine piping | Underwater stabilizers for river crossings | **High** (Hydrodynamic load testing for deep-water shells) |
+| **Schulz Elektrotechnik** 
+ (Bremen, HB) | Switchgear assembly, PLC programming | ASVA control logic and LOTO interfaces | **High** (SPS-control logic for millisecond shutdown) |
+| **Lange Feinmechanik GmbH** 
+ (Kiel, SH) | Optical and acoustic sensor housings | SMT3 acoustic wave receivers | **High** (Acoustic signal amplification in signal-denied zones) |
+| **Richter Vakuumtechnik** 
+ (Göttingen, NI) | Vacuum chambers and pump components | V-Ventilation low-pressure chambers | **High** (Molecular flow simulation inside secondary vacuum) |
+## Intellectual Property Assertions and Federal Regulatory Filings
+### CIPO, ISED, and the Certified Electronic Records Service
+The administrative footprint of DWVSCPS ENERGY is documented across several federal Personal Information Banks (PIBs) administered by Innovation, Science and Economic Development Canada (ISED) and the Canadian Intellectual Property Office (CIPO) :
+ * **ISED PPU 041 (CIPO Personal Information Bank):** Holds active and historical files for trademark and industrial design applications. This includes the pending industrial design application for "DWV STOCKFORD CONTAMINATE PIPELINE SHELL" submitted on April 30, 2022, under transaction Reference 15389089, with a total paid fee of $732.93 CAD (including a base filing fee of $607.93 CAD and a $125.00 CAD surcharge for "Delay of Registration").
+ * **ISED PPU 049 (Notices of Directors of Corporations):** Maintained under the Canada Business Corporations Act, logging Richard Evan Stockford Jr. as the sole director of 15389089 Canada Inc..
+ * **ISED PPU 050 (Inquiries and Compliance Activities):** Records administrative tracking and compliance activities concerning the lifecycle of 15389089 Canada Inc..
+ * **ISED PPU 033 (Competition Bureau Electronic Evidence):** Logs digital forensic activity relevant to claims of system cloning and environmental compliance under the Competition Act.
+To establish legal authenticity, the claimant relies on CIPO's Certified Electronic Records Service, which provides certified electronic copies of official IP documents in a secure PDF format featuring secure digital signatures and electronic seals. The fee structure for these services consists of $44 CAD per certification and $13 CAD for each associated patent, trademark, industrial design, or copyright application.
+### Federal Tax Optimization: CCUS-ITC Class 57 and Class 58
+The physical subsystems of the DWVSCPS are mapped to the federal Carbon Capture, Utilization, and Storage Investment Tax Credit (CCUS-ITC) framework under the Income Tax Act :
+ * **Class 57 (8% declining balance):** Applies to equipment used solely for capturing, preparing, compressing, and transporting CO_2. The unpressurized modular secondary containment shell, ventilated pipeline mechanisms, and primary containment core are aligned with this class.
+ * **Class 58 (20% declining balance):** Applies to equipment used for CO_2 storage, industrial utilization, and related monitoring and control equipment. The ASVA and the SMT3 predictive monitoring sensor array are structurally mapped to this class.
+To qualify for these refundable credits, the Department of Natural Resources Canada (NRCan) must verify the described property, and the project must satisfy strict anti-greenwashing provisions under Bill C-59, which mandate "Adequate and Proper Substantiation" for all environmental performance claims.
+| Eligible CCUS Asset Class | Statutory Definition | DWVSCPS Subsystem Alignment |
+|---|---|---|
+| **Class 57** 
+ (8% declining balance) | Equipment used solely for capturing CO_2 from industrial emissions or ambient air, and equipment for preparing, compressing, and transporting captured carbon. | Unpressurized modular secondary containment shell, ventilated pipeline mechanisms, and primary containment core. |
+| **Class 58** 
+ (20% declining balance) | Property used for CCUS that is for the use of CO_2 in industrial production, and related monitoring and control equipment. | Autonomous Safety Valve Actuator (ASVA) and SMT3 predictive monitoring sensor array. |
+### CRA Compliance and IC05-1R1 Electronic Record Keeping
+Under Section 230(1) of the Income Tax Act, corporations operating in Canada must maintain adequate books and records to enable the verification of tax liabilities. 15389089 Canada Inc.'s compliance model is designed to satisfy CRA Information Circular IC05-1R1 standards, which mandate :
+ * **Taxpayer Responsibility:** The taxpayer remains solely responsible for the retention and safeguarding of electronic records, even when utilizing third-party cloud hosting.
+ * **Format and Retention:** Records must be retained in an electronically readable, accessible, and useable format for a minimum of six years from the end of the latest tax year.
+ * **Geographic Location:** Electronic records must be maintained on servers located physically within Canada.
+ * **Audit Trail Integrity:** The system must maintain an unbroken audit trail from source documents (such as web logs, transaction emails, and digital signatures) to summarized accounts.
+ * **Standard Alignment:** System controls must prevent accidental or intentional alteration of completed transactions, aligning with the national CAN/CGSB-72.34-2024 standard for electronic records as documentary evidence.
+To organize these evidence binders, the compliance architecture repurposes the checkpoint system of the Web Content Accessibility Guidelines (WCAG), utilizing checkpoints EVD-001 through EVD-009 to index technical schemas, expand proprietary acronyms, and map compliance items directly to Section 230 of the Income Tax Act.
+### Mathematical Modeling and Valuation Equations
+The valuation and licensing metrics of the DWVSCPS technology are governed by a proprietary 7-variable formula system :
+ * **Safety Return on Investment:**
+   
+   
+   where L_{\text{prev}} represents leaks prevented, C_{\text{barrel}} represents the cleanup cost per barrel, T_{\text{adj}} is the tax adjustment efficiency, and H_{\text{savings}} represents captured product or operational savings from avoided shutdowns.
+ * **Net Tax Efficiency (NTE) Model:**
+   
+   
+   where S_t represents annual savings via automated tax allocations, C_t represents smart monitoring tax credits, O_t represents the operational cost of manual auditing vs. AI-generated filing, ARV_t is the Audit Risk Variance (targeted at near-zero), and r is the discount rate over a 50-year projection.
+ * **Stockford Capture Efficiency Integral:**
+   
+   
+   where C_{\text{in}}(t) is the incoming contaminant concentration, C_{\text{out}}(t) is the exiting concentration, \emptyset is the volumetric flow rate, and \Psi(P,T) is the Stockford correction coefficient adjusting for pressure (P) and temperature (T) within the containment geometry.
+ * **Total Claim Valuation (V_{\text{TC}}):**
+   
+   
+   where \lambda represents the annual licensing benchmark ($40 million CAD), and C_{\text{held}} represents the value of federal tax credits currently claimed by industry partners under the CCUS-ITC framework ($645 million CAD), yielding a total ecosystem claim of $1.645 Billion CAD.
+ * **Total Compensation Equation (TCE):**
+   
+   
+   where E_{\text{net}}(t) represents the net operational revenue (EBITDA) of non-compliant infrastructure, P_{\text{rate}} is the penalty rate, RegPenalty represents government non-compliance penalties for failing to report the use of the IP, and C_{\text{i}} represents the baseline entry fee.
+## Detailed Account Opening Procedures and Regulatory Requirements
+### Scotiabank Investment and Registered Account Opening Requirements
+According to the Scotiabank Investment Companion Booklet, opening a Scotiabank Investment Account or Registered Account requires strict adherence to federal identity verification procedures :
+ * **Proper Identification:** All applicants must present original, current, and verifiable identification.
+ * **Single Process (New Customers):** Requires one piece of personal, government-issued photo identification issued by a federal, provincial, or state authority, which must contain the subject's photograph and biometric details (e.g., a Canadian passport or driver's license).
+ * **Dual Process (Alternative):** If a single piece of primary photo identification is unavailable, the applicant must show two original, current documents from independent, reliable sources to verify distinct identity elements. These documents are classified into three verification channels :
+   *   *Channel 1 (Name & DOB):* A Canadian insurance document, such as a home, auto, or life insurance policy.
+   *   *Channel 2 (Name & Address):* A utility bill, municipal tax assessment, or travel visa.
+   *   *Channel 3 (Name & Account):* Financial account confirmation from another regulated institution.
+### Registered Account Rules and UK QROPS Regulations
+The Scotiabank administrative booklet mandates that withdrawals from locked-in registered accounts, including Locked-in Retirement Accounts (LIRAs), Locked-in Registered Savings Plans (LRSPs), and Restricted Locked-in Savings Plans (RLSPs), are generally prohibited. Exceptions are restricted to narrow circumstances, such as shortened life expectancy, plans with small balances, or severe financial hardship, all of which require comprehensive supporting documentation.
+For accounts holding funds transferred as a Qualifying Recognised Overseas Pension Scheme (QROPS) from the United Kingdom, specialized reporting is enforced. Scotiabank is required to report all actual or deemed withdrawals or transfers to Her Majesty's Revenue and Customs (HMRC) if executed within 10 years of the initial transfer date, or while the holder is a UK tax resident (or was a resident in the preceding five UK tax years). Under UK legislative amendments, QROPS account holders must be age 55 or older to withdraw funds, unless early retirement due to ill-health is certified.
+### Canadian Withholding Tax Rates
+For taxable withdrawals from registered retirement accounts, standard federal and provincial withholding taxes are deducted at source. In the province of Québec, beneficiary or successor designations cannot be made directly on the account application and must be executed through a Will.
+| Taxable Withdrawal Amount (CAD) | Withholding Tax Rate (Except Québec) | Combined Federal/Provincial Withholding Tax Rate (Québec) |
+|---|---|---|
+| **Up to $5,000.00** | 10% | 20% |
+| **$5,000.01 to $15,000.00** | 20% | 25% |
+| **Over $15,000.00** | 30% | 30% |
+### Moomoo Financial Canada Corporate Onboarding Requirements
+To execute corporate investment strategies through a regulated broker, Moomoo Financial Canada Inc. (MFCI) requires the submission of a highly specific corporate onboarding package to docs@ca.moomoo.com :
+ * **MFC Legal NCAF.pdf:** The core Legal New Client Application Form establishing the corporate identity and registration.
+ * **MFC Corporate Resolution.pdf:** Formally authorizes Richard Evan Stockford Jr. to execute trades and manage funds on behalf of the corporation.
+ * **MFC Supplemental Profile.pdf:** Details corporate structure and beneficial owners holding a 25% or greater equity stake, incorporating form RC518.
+ * **MFC Corporate Guarantee.pdf:** Establishes corporate liability frameworks required to access options and margin trading accounts.
+ * **MFC Guarantee Form.pdf:** Required if an individual acts as a personal guarantor for the corporate trading accounts.
+MFCI reviews these corporate packages within 10 business days of receipt, requiring valid government-issued photo ID, proof of address, Articles of Incorporation, and the most recent Annual Return.
+## Forensic Tracing of Gmail Correspondence and Financial Directives (2024–2026)
+A chronologically sequenced analysis of the claimant’s Gmail correspondence outlines the progressive shift from standard corporate operations to a highly structured framework of unilateral sovereign demands :
+ * **August 21, 2024 (RBC Loan Inquiry):** Stockford contacts RBC (georgia.harris@rbc.com), requesting a follow-up on a business loan and confirming he has established online banking access.
+ * **September 19, 2024 (Court Correspondence):** Stockford contacts GNB court administrators (crtapp@gnb.ca), providing a DocuSign signup link and attaching his ID.me Credential Policy (version 10.1, published July 1, 2024, Ref: ID.me.S.00.010). This document details standard government-issued primary photo evidence and financial-utility secondary evidence parameters.
+ * **December 5, 2025 (NBC Access Request):** The National Bank of Canada processes Stockford's formal Personal Information Access Request (Renseignements personnels demande #788876517970628), compiling a comprehensive list of his accounts, social insurance number, and driver's license verification history.
+ * **December 8, 2025 (Unilateral Bank Demands):** Stockford issues a combined package containing an "Affidavit of Service," "Legislative Compliance Bill," and "RCMP Enforcement Request" to TD, CIBC, RBC, BMO, and Scotiabank. He asserts a $750 Billion CAD debt ($150 Billion per bank) and demands a 51% equity transfer upon default. He writes to the Prince George, BC RCMP detachment and the Supreme Court Registry, demanding the physical removal of bank executives.
+ * **December 8, 2025 (Listserv Blast & AI Ban):** Stockford issues a blast to government listservs (LISTSERV@list.pm.gc.ca, PM@pm.gc.ca, caroline.lefebvre@ised-isde.gc.ca, MXRlegal@tmx.com, pbo-dpb@parl.gc.ca, MXRlegal@tmx.com), establishing the "Unified Legal Compliance Orders & Custodianship Framework" (case #QR-VIN-2025-DEFAULT). This document unilaterally bans the use of AI in courts of law unless authorized by him.
+ * **December 9, 2025 (Moomoo and National Bank Demands):** Stockford emails Moomoo Financial Canada (support@ca.moomoo.com), cc'ing the National Bank of Canada, demanding processing of corporate account assignments and referencing his case #QR-VIN-2025-DEFAULT and MFCI ID 75074393.
+ * **December 9, 2025 (NBC Online Banking Demand):** Stockford writes to National Bank security/confidentiality units, demanding setup of business online banking tools (forms/business/sign-up-internet-banking-solutions.html) and the immediate release of savings, chequing, RRSP, and TFSA funds.
+ * **December 12, 2025 (Jurisdictional Directives):** Stockford sends final terms to National Bank and Moomoo, declaring that Ontario provincial law and Ontario courts govern all accounts and disputes.
+| Date of Message | Senders & Recipients | Document / File Attached | Summary of Directive or Legal/Financial Assertion |
+|---|---|---|---|
+| **Aug 21, 2024** | Richard Stockford to 
+ RBC (georgia.harris@rbc.com) | None | Loan status inquiry and confirmation of online banking setup. |
+| **Sep 19, 2024** | Richard Stockford to 
+ NB Appeal Court (crtapp@gnb.ca) | ID.me_Credential_Policy_v10.1 Combined.pdf | DocuSign referral and submission of ID.me identity proofing and credential guidelines. |
+| **Dec 5, 2025** | NBC (ser[span_38](start_span)[span_38](end_span)vice.telnat@bnc.ca) 
+ to Richard Stockford | Renseignements personnels demande 788876517970628.pdf | Response to personal information request, detailing savings, chequing, TFSA, and RRSP account numbers. |
+| **Dec 8, 2025** | Richard Stockford to 
+ National Bank / RCMP | Combined Affidavit & RCMP Enforcement Request | Unilateral demand of $750 Billion CAD against the "Big 5" banks, demanding 51% equity transfer and RCMP-led removal of executives. |
+| **Dec 8, 2025** | Richard Stockford to 
+ PMO / ISED / TMX | Unified Legal Compliance Orders & Custodianship | Proclaims Case #QR-VIN-2025-DEFAULT, bans unauthorized AI in courts, and claims national bank custodianship. |
+| **Dec 9, 2025** | Richard Stockford to 
+ Moomoo Support | Moomoo Account Setup & Supreme Court Case | Demands immediate setup of corporate trading account under MFCI ID 75074393 and case QR-VIN-2025-DEFAULT. |
+| **Dec 9, 2025** | Richard Stockford to 
+ NBC Security | Sign-Up Business Internet Banking Solutions | Formally requests setup of business internet solutions and immediate release of all held personal and corporate funds. |
+| **Dec 12, 2025** | Richard Stockford to 
+ NBC / Moomoo  | Terms of Use / Ontario Jurisdiction Directive  | Asserts that Ontario provincial law and Ontario courts govern all associated accounts and disputes. |
+## Comprehensive Profile of the Legal and Financial Claims
+### IP Misappropriation and System Cloning Claims
+The central claim of the DWVSCPS ENERGY framework is that major midstream operators, primarily Enbridge Inc., in collaboration with technology partners like Microsoft, have engaged in systematic "system cloning" and "algorithmic mirroring". The claimant alleges that Enbridge's "Integrity Engine" and "Energy Optimizer" machine learning platforms—co-developed with Microsoft Azure—unlawfully ingested his proprietary 7-variable thermodynamic formulas, pressure-decay rate algorithms, and SMT3 dead-reckoning methodologies.
+The claimant asserts that these systems utilize his technical innovations to capture clean energy efficiencies and generate federal CCUS-ITC tax credits, while falsely denying his role as the inventor. To enforce these claims, the claimant relies on the additions to the Criminal Code of Canada under Section 391, which criminalizes the theft or unauthorized communication of trade secrets, carrying an indictable penalty of up to 14 years of imprisonment.
+### The 2023 Mainline Tolling Settlement Infringement
+The claimant asserts that the Mainline Tolling Settlement (MTS) filed by Enbridge Inc. with the Canada Energy Regulator on December 15, 2023 (CER Filing C27697), directly incorporates his proprietary flow control, distance-based surcharge, and pressure equalization logic. He alleges that the defendants utilized his 2018 human-generated R&D data but intentionally misrepresented it as older, obsolete data in the tolling agreements to evade licensing liability and avoid paying royalties to 15389089 Canada Inc..
+### Institutional "De-Banking" and Bank Act Violations
+The claimant alleges a coordinated campaign by Canada's "Big 6" banks and the National Bank of Canada to lock him out of both personal and corporate accounts. He argues that these institutions are violating Section 448.1 of the Bank Act (Right to a Bank Account) by refusing to maintain his business and personal accounts.
+The claimant's financial directives allege that because these banks manage the cash flows and investment portfolios of energy companies utilizing his unlicensed technology, they are aiding and abetting intellectual property theft, which he characterizes as corporate forgery and laundering under FINTRAC standards. He has demanded that these banks remit a total of $750 Billion CAD ($150 Billion per bank) or forfeit 51% controlling equity in their operations.
+### Crown Indemnity Failure and the $645M Repatriation
+Under the "Sovereign Enforcement" theory, the claimant asserts that the Crown (represented by the CRA and the NRC) acted as the de facto insurer of his technology. By failing to protect his technical submissions and allowing unauthorized corporate ingestion via the Open Government Portal, the claimant argues the Crown is liable for the full extent of his damages.
+He has demanded the immediate release and repatriation of $645,000,000 CAD in CCUS-ITC credits allegedly held in arrears by the CRA under Case Reference GDOC24S499E, asserting a "Requirement to Pay" (RTP) and "Direct Billing Authority" under Section 224 of the Income Tax Act to garnish these funds directly.
+## Jurisdictional History, Vexatious Litigant Designations, and Alberta King's Bench Entry
+### New Brunswick King's Bench Dismissal (WC-34-2023)
+In June 2023, Richard Evan Stockford Jr. initiated a civil action against Enbridge Inc. in the Woodstock Court of King's Bench under File WC-34-2023. The Notice of Action with Statement of Claim was filed on August 3, 2023. The statement of claim sought a national injunction, a freezing order over Enbridge's bank accounts, and substantial damages for intellectual property theft.
+On June 24, 2024, the trial judge struck the Statement of Claim in its entirety under Rules 23.01(1)(b) and 37 of the Rules of Court (2024 NBKB 132). The trial judge characterized the pleadings as a "disparate collection of ideas which cannot be logically pieced together," striking the documents as scandalous, frivolous, and vexatious, and awarding $7,000 CAD in costs against Stockford.
+### New Brunswick Court of Appeal and Vexatious Litigant Designation (2025 NBCA 51)
+Stockford appealed the trial court dismissal on July 17, 2024, under Case 78-24-CA. On September 26, 2024, the New Brunswick Court of Appeal dismissed Stockford’s motion for an expedited hearing of the appeal (2024 NBCA 119) due to a failure to perfect the appeal and serve the respondent. Enbridge subsequently moved to dismiss the appeal under Rule 62.23 on the grounds of procedural non-compliance.
+On April 17, 2025, the Court of Appeal of New Brunswick delivered its final judgment in *Stockford v. Enbridge*, 2025 NBCA 51. The Court allowed Enbridge's motion, dismissed the appeal, and formally designated Richard Evan Stockford Jr. a vexatious litigant under Rule 76.1.03. This designation imposes an absolute bar prohibiting the appellant from commencing or continuing any further legal proceedings in New Brunswick courts without first obtaining written leave from a single judge.
+### Alberta Civil Practice Note 7 (CPN7) Leave Application
+Following his designation as a vexatious litigant in New Brunswick, the claimant relocated his legal focus to Calgary, Alberta, filing an originating ex parte application in the Court of King’s Bench. To bypass potential jurisdictional blocks, the claimant applied for leave under Alberta's Civil Practice Note 7 (CPN7), which governs potentially vexatious, abusive, or Apparently Vexatious Applications or Proceedings (AVAPs).
+The claimant seeks an immediate Judicial Sealing Order over the "Master Trust Vault" (comprising directories 01_TRUST_DEED through 10_QR_SYSTEMS_MASTER), arguing it contains protected Class 57/58 trade secrets and new, independent, unlitigated evidence (the 2026 CRA GDOC24S499E tax credit submissions). An objective evaluation under CPN7 suggests that the Alberta filing contains classic indicators of an AVAP. The pleadings rely heavily on his conceptual "Master Agreements" and "Sovereign Custody" models, seeking impossible remedies and representing a collateral attack designed to relitigate issues of intellectual property theft and account freezing that were already struck and decided in New Brunswick.
+## Concluding Assessment and Strategic Actionable Directives
+The technical and legal record of DWVSCPS ENERGY and Richard Evan Stockford Jr. demonstrates a clear transition. What began as a conceptual engineering design for pipeline secondary containment has transitioned into a highly structured, self-published framework of cryptographic "pseudolaw". While the mechanical features of the "Drain, Waste, Vent" secondary pipeline shell represent a logical concept for mitigating spill risks, the underlying drawings are conceptual only and lack physical, thermodynamic, or structural validation.
+Confronted with corporate dissolution under Section 212 of the CBCA and a series of decisive legal defeats in the New Brunswick courts, the claimant constructed a parallel regulatory reality. By wrapping corporate data in AES-256-GCM encryption, anchoring it to a SHA-256 Master Hash, and interpreting standard CRA disclaimers and ATIP summaries as official "admissions of assets," the claimant attempted to bypass established contract and intellectual property law. This elaborate cryptographic structure ultimately collapsed under judicial review, as evidenced by his vexatious litigant designation under New Brunswick Rule 76.1.03.
+To manage the operational, regulatory, and legal risks associated with these active claims, professional stakeholders should implement the following targeted directives:
+ * **For Midstream Pipeline Operators (Enbridge, TMX, etc.):**
+   * *Execute Comprehensive Technology Audits:* Conduct internal technical reviews of machine learning pipeline integrity software, specifically "Integrity Engine" or "Energy Optimizer" platforms hosted in Microsoft Azure, to verify that no functional or algorithmic overlap exists with the DWVSCPS "7-Variable Formula System" or SMT3 dead-reckoning methodologies. This audit should align with OSFI Guideline B-13 and Guideline E-23 Model Risk Management standards.
+   * *Verify Clean Economy Tax Filings:* Under Bill C-59 anti-greenwashing rules, corporate tax departments must ensure that all claims for Class 57 and Class 58 CCUS-ITC credits possess "Adequate and Proper Substantiation" to prevent regulatory compliance disputes.
+ * **For Regulated Financial Institutions (RBC, TD, Scotiabank, BMO, CIBC, National Bank):**
+   * *Enforce Strict Onboarding & KYC Protocols:* Maintain rigid compliance with OSFI Guidelines B-10 (Third-Party Risk Management) and B-13 (Technology and Cyber Risk) when processing high-volume corporate accounts. For corporate onboarding, strictly mandate the submission of verified Articles of Incorporation, current Annual Returns, and certified corporate resolutions authorizing the specific transaction.
+   * *Enforce Strict Identity Verification:* When opening investment or registered accounts, require original, current photo identification (Primary Process) or apply the Dual Process strictly utilizing independent, reliable insurance or utility records to mitigate identity mirroring and fraud risks.
+ * **For Judicial and Regulatory Authorities (CRA, CER, Alberta Courts):**
+   * *Apply Gatekeeping Mechanisms:* Utilize the expedited summary procedures under Civil Practice Note 7 (CPN7) and Rule 3.68 of the Alberta Rules of Court to efficiently identify, stay, and dismiss the originating Calgary filing as a clear abuse of the court process. This will prevent the relitigation of issues already decided and barred by the New Brunswick Court of Appeal in *Stockford v. Enbridge*, 2025 NBCA 51.
+
 import csv
 import json
 import hashlib
